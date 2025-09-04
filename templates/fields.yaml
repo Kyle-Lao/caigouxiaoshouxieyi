@@ -1,0 +1,51 @@
+fields:
+  - name: execution_date
+    label: Execution Date
+    type: date
+    format: "%m/%d/%Y"
+    required: true
+
+  - name: purchaser
+    label: Purchaser
+    type: text
+    required: true
+
+  - name: signatory
+    label: Signatory
+    type: text
+    required: true
+
+  - name: signatory_title
+    label: Signatory Title
+    type: text
+
+  - name: purchaser_address
+    label: Purchaser Address
+    type: textarea
+
+  - name: policy_number
+    label: Policy Number
+    type: text
+    required: true
+
+  - name: carrier
+    label: Carrier
+    type: text
+    required: true
+
+  - name: death_benefit
+    label: Death Benefit
+    type: text
+
+  - name: purchase_price
+    label: Purchase Price
+    type: text
+
+  - name: paid_through_date
+    label: Paid Through Date
+    type: date
+    format: "%m/%d/%Y"
+
+  - name: p_reimburse
+    label: Premium Reimburse (p_reimburse)
+    type: text
